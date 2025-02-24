@@ -1,1 +1,299 @@
-<h1>Hola, GitHub!</h1>
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+</head>
+<body>
+    <!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+</head>
+
+<style>
+    * {
+        margin: 0;
+        padding: 0;
+    }
+
+    body {
+        background-color: rgb(237, 234, 234);
+    }
+
+    .father {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    .TheGoodfather {
+        width: 60%;
+        display: flex;
+    }
+
+    /* Cuadro Principal */
+
+    .contenedorInfo {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 3.5%;
+        background-color: white;
+        font-size: 16px;
+        width: 70%;
+        height: 100%;
+        flex-wrap: wrap;
+    }
+
+    .careerProfile {
+        width: 90%;
+        height: 20%;
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+    }
+
+    .careerProfile h1 {
+        color: rgb(4, 136, 143);
+    }
+
+    .experinces {
+        width: 90%;
+        height: 70%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .experinces span {
+        color: rgb(0, 0, 0, 0.3);
+    }
+
+    .experinces h1 {
+        color: rgb(4, 136, 143);
+    }
+
+    .experinces h4 {
+        color: black;
+        margin: 0;
+        font-size: 15px;
+    }
+
+    /* Cuadro Secundario */
+
+    .contenedorPerfil {
+        display: flex;
+        flex-flow: column nowrap;
+        text-align: center;
+        width: 30%;
+    }
+
+    .perfil {
+        width: 100%;
+        background-color: green;
+        height: 30%;
+        
+    }
+
+    .perfil img {
+        width: 100px;
+        border-radius: 50%;
+        margin: 20px 0px 10px 0px;
+    }
+
+    .perfil h1 {
+        font-size: 25px;
+        color: white;
+    }
+
+    .perfil h4 {
+        font-size: 13px;
+        color: white;
+    }
+
+    .contacto {
+        height: 70%;
+        width: 100%;
+        text-align: left;
+        background-color: greenyellow;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 8%;
+    }
+
+    .contactar {
+        color: white;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;    }
+    .contacto h3 {
+        font-size: 15px;
+        color: white;
+        margin-bottom: 10px;
+    }
+
+    .contacto h4 {
+        color: white;
+        font-size: 12px;
+        padding-bottom: 15px;
+    }
+
+    .contacto span {
+        color: white;
+        opacity: 0.5;
+    }
+
+    .contactoson {
+        width: 80%;
+        height: 90%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    @media(max-width: 600px){
+        .TheGoodfather{
+        display:flex;
+        flex-direction: column;
+        gap: 5px;
+        width: 80%;
+        }
+        .contenedorPerfil{
+            width: 100%;
+        }
+        .contenedorInfo{
+            width: 100%;
+            gap: 6%;
+        }
+        .perfil{
+            height: 200px;
+        }
+        .contactar{
+            padding: 10px;
+        }
+    }
+</style>
+
+<body>
+    <div class="father">
+        <div class="TheGoodfather">
+            <div class="contenedorInfo">
+                <section class="careerProfile">
+
+                    <h1><i class="fa-solid fa-user"></i>CAREER PROFILE</h1>
+                    <p>Summarise your career here lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+                        You can download this free resume/CV template here. Aenean commodo ligula eget dolor aenean
+                        massa.
+                        Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+                        Donec quam felis, ultricles nec, pellentes eu.
+                    </p>
+                </section>
+
+                <section class="experinces">
+                    <h1>
+                        <i class="fa-solid fa-briefcase"></i>
+                        EXPERIENCES
+                    </h1>
+                    <h4>
+                        Lead Developer <br>
+                        <span>
+                            Startup Hubs, San Francisco
+                            2015-Presente
+                        </span>
+                    </h4>
+                    <p>
+                        Describe your role here lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+                        Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis
+                        parturient
+                        montes, nasectur ridiculus mus.
+                        Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis
+                        enim.
+                        Donec pede justo. <br> <br>
+                        Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque
+                        laudantium,
+                        totam
+                        rem
+                        aperiam,
+                        eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae
+                        dicta sunt explicabo.
+                    </p>
+
+                    <h4>
+                        Senior Software Engineer <br>
+                        <span>
+                            Google, London
+                            2014-2015
+                        </span>
+                    </h4>
+                    <p>
+                        Describe your role here lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+                        Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis
+                        parturient
+                        montes, nasectur ridiculus mus.
+                        Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem.
+                    </p>
+                    <h4>
+                        UI Developer <br>
+                        <span>
+                            Amazon, London
+                            2012-2014
+                        </span>
+                    </h4>
+                    <p>
+                        Describe your role here lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean
+                    </p>
+                </section>
+            </div>
+
+            <div class="contenedorPerfil">
+                <section class="perfil">
+                    <img src="data:image/jpeg;base64,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"
+                        alt="foto de perfil">
+                    <h1>Alan Doe</h1>
+                    <h4>Full Stack Developer</h4>
+                </section>
+
+                <div class="contacto">
+                    <div class="contactar">
+                        <h5><i class="fa-solid fa-envelope"></i>alan.doe@website.com</h5>
+                        <h5> <i class="fa-solid fa-phone"></i>0123 456 789</h5>
+                        <h5><i class="fa-solid fa-globe"></i>portfoliosite.com</h5>
+                        <h5><i class="fa-brands fa-linkedin"></i>linkedin.com/in/alandoe</h5>
+                        <h5><i class="fa-brands fa-github"></i>github.com/usename</h5>
+                        <h5><i class="fa-brands fa-twitter"></i>@twittername</h5>
+                    </div>
+                    <div class="studio" style="height: 50%;">
+                        <h3>EDUCATION</h3>
+                        <h4>
+                            MSc in Computer Science <br>
+                            <span>University of London <br>
+                                2011-2012</span>
+                        </h4>
+
+                        <h4 class="ultimaInfo">
+                            BSc in Applied Mathematics <br>
+                            <span>Bristol University <br>
+                                2007-2011</span>
+                        </h4>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>
+</body>
+</html>
